@@ -1,9 +1,10 @@
 import React from 'react';
 import './Landing.css';
+import Officer from './Officer.js';
 
 function Landing(){
   return (
-    <div className="main">
+    <div className="main flex-container">
       <img
         src={"/img/header_gradient_text.svg"}
         className="Header-img"
@@ -27,10 +28,21 @@ function Landing(){
           culpa qui officia deserunt mollit anim id est laborum.
         </div>
       </div>
-      <div className="maintext-section-div-2">
-        <div className="section-header right-justify">Officers</div>
-        <div className="flex flex-row">
-          <div className="profilePic" />
+      <div style={{paddingTop:'50px'}}>
+        <div className="section-header right-justify" style={{paddingRight:'50px'}}>Officers</div>
+        <div className="photo-grid space-evenly">
+          <Officer name="Julia Baylon" />
+          <Officer name="Cindy Zhang" />
+          <Officer name="Monica Bellare" />
+          <Officer name="Ruining Ding"/>
+          <Officer name="Lena O'Grady"/>
+        </div>
+        <div className="photo-grid">
+          <Officer name="Preethi Kiruveedula"/>
+          <Officer name="Lulu Wang"/>
+          <Officer name="Ethan Wong"/>
+          <Officer name="Michelle Kim"/>
+          <Officer name="Maggie Huang"/>
         </div>
       </div>
     </div>

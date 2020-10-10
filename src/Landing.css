@@ -31,9 +31,6 @@
   padding-right: 25%;
 }
 
-.maintext-section-div-2 {
-  flex-direction: row;
-}
 
 .section-header {
   font-size: 36px;
@@ -44,17 +41,10 @@
   text-align: right;
 }
 
-.profilePic{
-    width:100%;
-    padding-top:100%;
-    border-radius: 100%;
-    background-image: url('https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png');
-    background-size: cover;
-}
-
 .photo-grid {
   display: flex;
   flex-direction: row;
+  padding-bottom: 25px;
 }
 
 
