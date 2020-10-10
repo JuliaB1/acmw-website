@@ -1,9 +1,29 @@
-.Background-img {
+.Header-img {
   min-width: 1024px;
   width: 100%;
   height: auto;
-  position: fixed;
   top: 0;
   left: 0;
   z-index: -1;
 }
+
+.main {
+  display: flex;
+  flex-direction: column;
+  font-family: Poppins;
+  align-items: center;
+}
+
+.section-div {
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+
+.section-header {
+  font-size: 36px;
+  font-weight: bold;
+}
+
+
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
