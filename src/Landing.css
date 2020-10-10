@@ -1,4 +1,7 @@
 .Header-img {
+  object-fit: cover; /*first three lines crop top and bottom of header image*/
+  object-position: 0 20%;
+  transform: translateY(-10%);
   min-width: 1024px;
   width: 100%;
   height: auto;
