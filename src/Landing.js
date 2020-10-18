@@ -36,14 +36,33 @@ function Landing(){
       </div>
       <div className="maintext-section-div">
         <div className="section-header">Upcoming Events</div>
+        <span className="event-title">Technical Interview Practice with SWE | </span>
+        <span className="date-time"> Every Tuesday, 7-8pm PST </span>
         <div>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          Description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat. Duis aute irure dolor in
-          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-          culpa qui officia deserunt mollit anim id est laborum.
+          minim veniam, quis nostrud exercitation ullamco laboris nisi.
+        </div>
+        <span className="event-title">Undergrad Mentorship Kickoff | </span>
+        <span className="date-time"> Wednesday Oct 28th, 6-7:30pm PST </span>
+        <div>
+          Description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+          minim veniam, quis nostrud exercitation ullamco laboris nisi.
+        </div>
+        <span className="event-title">Alumni Mentorship Kickoff | </span>
+        <span className="date-time"> Wednesday Nov 4th, 6-7:30pm PST </span>
+        <div>
+          Description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+          minim veniam, quis nostrud exercitation ullamco laboris nisi.
+        </div>
+        <span className="event-title">Human Capital Info/Networking Session | </span>
+        <span className="date-time"> Monday Nov 16th, 6-5pm PST </span>
+        <div>
+          Description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+          minim veniam, quis nostrud exercitation ullamco laboris nisi.
         </div>
       </div>
       <div style={{paddingTop:'50px'}}>
