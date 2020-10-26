@@ -4,22 +4,26 @@ import Officer from './Officer.js';
 import Zoom from "react-reveal/Zoom"
 
 const officers = [
-  { name: "Julia Baylon", role: "President" },
-  { name: "Cindy Zhang", role: "Vice President" },
-  { name: "Monica Bellare", role: "Mentorship" },
-  { name: "Ruining Ding", role: "Mentorship" },
-  { name: "Lena O'Grady", role: "WESP/QWER Hacks" },
-  { name: "Preethi Kiruveedula", role: "External" },
-  { name: 'Lulu Wang', role: 'External'},
-  { name: 'Ethan Wong', role: 'Publicity'},
-  { name: 'Michelle Kim', role: 'Day of Code'},
-  { name: 'Maggie Huang', role: 'Finance'},
+  {
+    name: "Julia Baylon",
+    role: "President",
+    image: "/img/julia1.jpg",
+  },
+  { name: "Cindy Zhang", role: "Vice President", image: "/img/cindy.jpg" },
+  { name: "Monica Bellare", role: "Mentorship", image: "/img/monica.jpg" },
+  { name: "Ruining Ding", role: "Mentorship", image: "/img/ruining1.png" },
+  { name: "Lena O'Grady", role: "WESP/QWER Hacks", image: "/img/lena.jpg" },
+  { name: "Preethi Kiruveedula", role: "External", image: "/img/preethi.jpg" },
+  { name: "Lulu Wang", role: "External", image: "/img/lulu.jpg" },
+  { name: "Ethan Wong", role: "Publicity", image: "/img/ethan.jpg" },
+  { name: "Michelle Kim", role: "Day of Code", image: "/img/michelle.jpg" },
+  { name: "Maggie Huang", role: "Finance", image: "/img/maggie.jpg" },
 ];
 
 function Landing(){
   const officerMap = officers.map((officer, index)=>(
     <li key={index}>
-      <Officer name={officer.name} role={officer.role}/>
+      <Officer name={officer.name} role={officer.role} image={officer.image}/>
     </li>
   ));
   return (
@@ -113,7 +117,11 @@ function Landing(){
         </div>
         <div
           className="flex space-evenly"
-          style={{ flexDirection: "row", maxWidth: "1000px", paddingBottom: '50px' }}
+          style={{
+            flexDirection: "row",
+            maxWidth: "1000px",
+            paddingBottom: "50px",
+          }}
         >
           <Zoom>
             <img src={"/img/zoom_heart2.png"} className="gallery-img" alt="" />
@@ -136,8 +144,27 @@ function Landing(){
         </div>
       </div>
       <div
-        style={{ width: "100%", height: "150px", backgroundColor: "#1BC3A9", paddingTop: '50px' }}
-      ></div>
+        className="flex"
+        style={{
+          width: "100%",
+          height: "150px",
+          backgroundColor: "#1BC3A9",
+          paddingTop: "50px",
+          flexDirection: "column",
+          justifyContent: "center",
+          alignItems: 'center'
+        }}
+      >
+        <div>
+          <a
+            href="https://www.facebook.com/groups/uclaacmw"
+            style={{marginLeft:'45%'}}
+          >
+            <img src={"/img/FindUs-FB-RGB.svg"} className="facebook" alt="" />
+          </a>
+          <div style={{ textAlign: "center", color:'white' }}>uclaacmw@gmail.com</div>
+        </div>
+      </div>
     </div>
   );
 }
