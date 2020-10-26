@@ -113,7 +113,7 @@ function Landing(){
         </div>
         <div
           className="flex space-evenly"
-          style={{ flexDirection: "row", maxWidth: "1000px" }}
+          style={{ flexDirection: "row", maxWidth: "1000px", paddingBottom: '50px' }}
         >
           <Zoom>
             <img src={"/img/zoom_heart2.png"} className="gallery-img" alt="" />
@@ -135,6 +135,9 @@ function Landing(){
           </Zoom>
         </div>
       </div>
+      <div
+        style={{ width: "100%", height: "150px", backgroundColor: "#1BC3A9", paddingTop: '50px' }}
+      ></div>
     </div>
   );
 }
