@@ -18,9 +18,17 @@
 }
 
 .our-mission-section-div {
-  padding-top: 10px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-left: 20px;
+  padding-right: 20px;
   font-size: 24px;
   text-align: center;
+  background-color: #1BC3A9;
+  border-radius: 20px;
+  margin-bottom: 75px;
+  margin-top: 50px;
+  color: white;
 }
 
 .maintext-section-div {
@@ -30,8 +38,15 @@
 }
 
 .main-graphic-img {
-  width: 300px;
-  height: 300px;
+  width: 100px;
+  height: 100px;
+}
+
+.main-graphic-small {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  width: 50px;
+  height: 50px;
 }
 
 .section-header {

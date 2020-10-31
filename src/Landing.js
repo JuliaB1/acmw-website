@@ -33,23 +33,17 @@ function Landing(){
         className="Header-img"
         alt=""
       />
-      <div className="our-mission-section-div">
-        <div className="section-header">Our Mission?</div>
-        <div>
-          We advocate for the inclusion of all groups in computer science!
+      <Zoom>
+        <div className="our-mission-section-div">
+          <div className="section-header">Our Mission?</div>
+          <div>
+            We advocate for the inclusion of all groups in computer science!
+          </div>
         </div>
-      </div>
-      <div>
-        <Zoom>
-          <img
-            src={"/img/w_logo_light.png"}
-            className="main-graphic-img"
-            alt=""
-          />
-        </Zoom>
-      </div>
+      </Zoom>
+
       <div className="maintext-section-div">
-        <div className="section-header">Upcoming Events</div>
+        <div className="section-header">Events</div>
         <span className="event-title">
           Technical Interview Practice with SWE |{" "}
         </span>
@@ -74,7 +68,7 @@ function Landing(){
           October 28 @ 6-7:30pm (week 4) PDT to Zoom for a fun time full of
           introductions, bonding and games! You’ll C(++) why the W in ACM-W can
           stand for wonderful, (neural) network with us and hopefully help us
-          find more CS puns. Facebook event coming soon.
+          find more CS puns.
         </div>
         <span className="event-title">Alumni Mentorship Kickoff | </span>
         <span className="date-time"> Wednesday Nov 4th, 6-7:30pm PST </span>
@@ -152,17 +146,19 @@ function Landing(){
           paddingTop: "50px",
           flexDirection: "column",
           justifyContent: "center",
-          alignItems: 'center'
+          alignItems: "center",
         }}
       >
         <div>
           <a
             href="https://www.facebook.com/groups/uclaacmw"
-            style={{marginLeft:'45%'}}
+            style={{ marginLeft: "45%" }}
           >
             <img src={"/img/FindUs-FB-RGB.svg"} className="facebook" alt="" />
           </a>
-          <div style={{ textAlign: "center", color:'white' }}>uclaacmw@gmail.com</div>
+          <div style={{ textAlign: "center", color: "white" }}>
+            uclaacmw@gmail.com
+          </div>
         </div>
       </div>
     </div>
